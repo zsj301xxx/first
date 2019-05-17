@@ -1,0 +1,35 @@
+.gr{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+
+}
+.gr .rightone{
+    height: auto;
+    margin-top: 10px;
+}
+.gr .righttwo{
+    height: auto;
+}
+.gr .rightfour{
+    height: auto;
+}
+.grliftone{
+    margin-top: 20px;
+    width: 860px;
+   
+    padding: 20px;
+    background: white;
+}
+.grliftone img{
+    width: 120px;
+    height: 100px;
+    margin-right: 20px;
+    float: left;
+}
+.grliftone h2{
+    margin-bottom: 20px;
+}
+.gr .liftlast{
+    float: left;
+}

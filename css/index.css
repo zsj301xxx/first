@@ -1,0 +1,704 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    font-family: 微软雅黑,sans-serif;
+    background: #E9EAED;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background: #1C2327;
+
+}
+.headerbox{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    line-height: 60px;
+}
+
+
+
+.logo{
+
+    height: 60px;
+    color: #fff;
+    float: left;
+
+}
+.navigation{
+
+    height: 60px;
+    float: left;
+    margin-left: 50px;
+}
+ul{
+    list-style: none;
+}
+.navigation li{
+    float: left;
+    margin-right: 20px;
+}
+.navigation li a:hover{
+    color: aqua;
+}
+.search{
+    width: 50px;
+    height: 60px;
+    margin-top: 8px;
+    float: right;
+}
+.first{
+    width: 1200px;
+    height: 260px;
+    margin: 20px auto;
+
+}
+.firstpiqy{
+    width: 616px;
+    height: 260px;
+    background: #1C2327;
+    margin-right: 14px;
+    float: left;
+    position: relative;
+}
+.firstpiqy .firstpiqyi img{
+    width: 616px;
+    height: 260px;
+    position: absolute;
+}
+
+.leftbtn,.rightbtn{
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    cursor: pointer;
+   
+}
+.rightbtn img{
+    width: 40px;
+    height: 32px;
+}
+
+.leftbtn {
+    left: 50px;
+}
+.rightbtn {
+    right: 50px;
+}
+.firstpiqy ul{
+    width: 96px;
+    height: 10px;
+    bottom: 36px;
+    left: 0px;
+    right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+}
+.firstpiqy ul li{
+    width: 10px;
+    height: 10px;
+    margin-right: 14px;
+    float: left;
+    border-radius: 50%;
+    background: white;
+}
+.firstpiqy ul li:hover{
+    background: cadetblue;
+}
+.firstcecond{
+    width: 270px;
+    height: 260px;
+    background: azure;
+    margin-right: 20px;
+    float: left;
+
+
+}
+
+.firstcecond a img {
+    width: 270px;
+    height: 125px;
+    filter: brightness(75%);
+}
+
+.firstcecond a img:hover {
+    filter: brightness(100%);
+    transform: scale(1.2);
+}
+
+.firstcecond div{
+    width: 270px;
+    height: 125px;
+    background: blue;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.op {
+    width: 80%;
+    height: 48px;
+    font-size: 16px;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+
+}
+.firstlast{
+    width: 240px;
+    height: 220px;
+    background: rgba(42, 42, 42,1);
+    float: left;
+    padding: 20px;
+}
+.firstlast h2{
+    font-size: 22px;
+    color: #89919a;
+    padding: 10px;
+    font-weight: normal;
+}
+.firstlast p{
+    font-size: 14px;
+    color: #d0d2d4;
+    padding: 10px;
+    font-weight: normal;
+}
+.firstlast div{
+    float: left;
+    margin-right: 30px;
+}
+.second{
+    width: 1200px;
+    height: 310px;
+    margin: 20px auto;
+
+}
+.secondleft{
+    width: 860px;
+    height: 270px;
+    background: white;
+    margin-right: 20px;
+    float: left;
+    padding: 20px;
+    border-radius: 5px;
+}
+.secondleft > ul{
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    padding: 10px;
+}
+.secondleft >ul li{
+    float: left;
+    margin-right: 20px;
+}
+.secondleft >ul li a{
+    color: #1C2327;
+}
+.secondleftBom{
+    width: 860px;
+    height: 210px;
+    margin-top: 13px;
+}
+.secondleftimg{
+    width: 280px;
+    height: 230px;
+    float: left;
+
+}
+.secondleftimg div{
+    width: 280px;
+    height: 100px;
+    margin-bottom: 10px;
+    background: aqua;
+    position: relative;
+    overflow: hidden;
+}
+.secondleftimg img{
+    width: 280px;
+    height: 100px;
+  filter: brightness(75%);
+}
+
+.secondleftimg a img:hover {
+    filter: brightness(100%);
+    transform: scale(1.2);
+}
+.secondleftnote{
+    width: 568px;
+    height: 210px;
+    float: right;
+    background: white;
+
+}
+
+.secondleftnote li{
+    width: 528px;
+    padding: 0 20px 5px 20px;
+    background: white;
+}
+.secondleftnote i{
+   display: block;
+    width: 20px;
+    height: 20px;
+    background: #222;
+    font-style: normal;
+    float: left;
+    margin-top:6px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+.secondleftnote a{
+
+   color: #333;
+   line-height: 32px;
+}
+.secondleftnote p{
+   overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.5;
+    display: none;
+}
+.secondleftnote a:hover{
+
+}
+
+.secondright{
+    width: 240px;
+    height: 270px;
+    background: white;
+    float: left;
+    padding: 20px;
+}
+
+.title{
+
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.title:before{
+    content: '';
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    background: black;
+    top: 40px;
+
+}
+.titleBut{
+    
+}
+.secondright .titleBut ul li::before{
+    content: '';
+    border-radius: 50%;
+    background: black;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 18px;
+    left: 10px;
+}
+.secondright  .titleBut ul li{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.titleBut li{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 13px;
+    background:#f2f2f2;
+    border-radius: 5px;
+    padding: 10px 20px;
+    position: relative;
+}
+.titleBut li:hover{
+    background: #f2f2f2;
+    box-shadow: 0px 0px 10px #ccc;
+    -moz-transition:all .2s ease;
+    transition:all .2s ease;
+}
+.titleBut li a{
+    color: #1C2327;
+
+}
+.next{
+    width: 1200px;
+    height: 3400px;
+    margin: 20px auto;
+   
+}
+.lift{
+    width: 900px;
+    height: 3400px;
+    margin-right: 20px;
+    float: left;
+
+}
+.liftfirst{
+     width: 860px;
+     height: 656px;
+     padding: 20px;
+     background: white;
+
+ }
+.liftfirsttitle{
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.liftfirsttitle:before{
+    content: '';
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    background: black;
+    top: 40px;
+}
+.liftfirsttitlea{
+    float: right;
+}
+.liftfirsttitlea ul li{
+    float: left;
+    margin-right: 15px;
+    color: #1C2327;
+}
+.liftfirsttitlea li a{
+    color: #1C2327;
+}
+.liftfirstnote .six{
+    width: 232px;
+    height: 242px;
+    float: left;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 20px;
+}
+.liftfirstnote >.six:nth-child(3){
+
+    border-right: none;
+}
+.liftfirstnote >.six:nth-child(6){
+
+    border-right: none;
+}
+.liftfirstnote >.six:nth-child(4){
+
+    border-bottom: none;
+}
+.liftfirstnote >.six:nth-child(5){
+
+    border-bottom: none;
+}
+.liftfirstnote >.six:nth-child(6){
+
+    border-bottom: none;
+}
+.six:hover{
+
+    box-shadow: 0px 0px 10px #ccc;
+    -moz-transition:all .2s ease;
+    transition:all .2s ease;
+}
+.six:hover> .siximg a img{
+    transform: scale(1.2);
+    -moz-transition:all .2s ease;
+    transition:all .2s ease;
+}
+.siximg{
+    width: 232px;
+    height: 100px;
+    margin-bottom: 15px;
+    overflow: hidden;
+
+
+}
+.siximg a img{
+    width: 232px;
+    height: 100px;
+    overflow: hidden;
+
+}
+.six h2{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.sixnote{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    font-size: 14px;
+   color: #999;
+}
+.sixnotea{
+    margin-top: 18px;
+}
+.sixnotea a{
+
+    color: cadetblue;
+}
+.liftsecond{
+    width: 860px;
+    height: 130px;
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+}
+.liftlast{
+    width: 860px;
+
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+}
+.liftlastbox{
+   height: 200px;
+   border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+.liftlastbox h3 a{
+    color: black;
+}
+.liftlastbox h3 a:hover{
+    color: mediumaquamarine;
+}
+
+.liftlastboximg {
+    width: 200px;
+    height: 124px;
+    margin-top: 14px;
+    float: left;
+}
+.liftlastboxl{
+    width: 610px;
+    height: 100px;
+    padding: 20px;
+    float: left;
+}
+.liftlastboxshe{
+    width: 80px;
+    height: 25px;
+    background: mediumaquamarine;
+    display: block;
+    margin-top: 40px;
+    margin-left: 400px;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.right{
+
+    width: 280px;
+
+    float: left;
+}
+.rightone{
+    width: 240px;
+    height: 472px;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.rightone  .titleBut ul li{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.rightoneti{
+    position: relative;
+}
+.rightoneimg{
+    width: 240px;
+    height: 110px;
+    margin-bottom: 20px;
+    filter: brightness(75%);
+}
+.rightoneimg:hover{
+    filter: brightness(100%);
+
+}
+.rightone .titleBut ul{
+    position: relative;
+}
+.rightone .titleBut ul li{
+    padding-left: 30px;
+}
+.rightone .titleBut ul li::before{
+    content: "";
+    width: 16px;
+    height: 16px;
+    top: 13px;
+    left: 7px;
+    background: #FF6600;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+}
+.rightone .titleBut ul li:first-child:before{
+    content: "1";
+
+}
+.rightone .titleBut ul li:nth-child(2):before{
+    content: "2";
+
+ }
+.rightone .titleBut ul li:nth-child(3):before{
+    content: "3";
+
+
+}
+.rightone .titleBut ul li:nth-child(4):before{
+    content: "4";
+    background: #89919a;
+}
+.rightone .titleBut ul li:nth-child(5):before{
+    content: "5";
+    background: #89919a;
+}
+
+
+.righttwo{
+    width: 240px;
+    height: 690px;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.righttwobox{
+    height: 60px;
+    margin-bottom: 20px;
+}
+.righttwoimg{
+    width: 70px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+}
+.righttwoimgg{
+    position: relative;
+}
+.righttwoimgg .op{
+    color: white;
+}
+
+.righttwo p{
+    display: block;
+    width: 140px;
+    height: 40px;
+    float: left;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #000;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+}
+
+.rightthree{
+    width: 240px;
+    height: 172px;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+.rightthree a {
+    overflow: hidden;
+    width: 240px;
+    height: 172px;
+    display: block;
+}
+.rightthree a img{
+    width: 240px;
+    height: 172px;
+
+}
+.rightthree a img:hover{
+    transform: scale(1.2);
+}
+.rightfour{
+    width: 240px;
+    height: 506px;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+.rightfour  .titleBut ul li::before{
+    content: '';
+    border-radius: 50%;
+    background: black;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 18px;
+    left: 10px;
+}
+.rightfour .titleBut ul li{
+    height: auto;
+}
+
+.rightsix{
+    width: 240px;
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 15px;
+}
+.rightsix ul{
+    line-height:2;
+}
+.rightsix ul a{
+    color: mediumaquamarine;
+}
+.rightsix img{
+    width: 193px;
+    height: 193px;
+    padding-top: 10px;
+    padding-left: 23px;
+}
+.rightseven{
+    width: 240px;
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+}
