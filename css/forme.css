@@ -1,0 +1,44 @@
+.ti{
+    overflow: hidden;
+}
+.qingimg{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 12px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.qingimg img{
+    width: 100px;
+    height: 100px;
+}
+.qingno div:nth-child(1){
+    margin: 10px 0 10px;
+    font-size: 18px;
+}
+.qingno div:nth-child(2){
+    color: #666;
+    margin-bottom:5px;
+    line-height: 1.5;
+}
+.qingno div:nth-child(3){
+    color: #666;
+    margin-bottom:5px;
+    line-height: 1.5;
+}
+.qingtt{
+    padding-top: 20px;
+}
+.qingtit{
+    padding-top: 30px;
+    width: 120px;
+    font-size: 18px;
+    border-bottom: #000 1px dashed;
+
+}
+.qingnote{
+    line-height: 1.5;
+    color: #333;
+}

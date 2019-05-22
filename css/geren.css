@@ -33,3 +33,65 @@
 .gr .liftlast{
     float: left;
 }
+.rightone{
+    overflow: hidden;
+}
+.biaoqian ul a{
+    display: block;
+    line-height: 24px;
+    float: left;
+    padding: 3px 10px;
+    margin: 10px 5px 0 0;
+    background: black;
+}
+.biaoqian ul a:nth-child(1){
+    background: #036564;
+}
+.biaoqian ul a:nth-child(2){
+    background: #EB6841;
+}
+.biaoqian ul a:nth-child(3){
+    background: #3FB8AF;
+}
+.biaoqian ul a:nth-child(4){
+    background: #FE4365;
+}
+.biaoqian ul a:nth-child(5){
+    background: #FE4365;
+}
+.biaoqian ul a:nth-child(6){
+    background: #FC9D9A;
+}
+.biaoqian ul a:nth-child(7){
+    background: #EDC951;
+}
+.biaoqian ul a:nth-child(8){
+    background: #C8C8A9;
+}
+.biaoqian ul a:nth-child(9){
+    background: #83AF9B;
+}
+.biaoqian ul a:nth-child(10){
+    background: #8A9B0F;
+}
+.biaoqian ul a:nth-child(11){
+    background: #EB6841;
+}
+.biaoqian ul a:nth-child(12){
+    background: #3FB8AF;
+}
+.biaoqian ul a:nth-child(13){
+    background: #FE4365;
+}
+.biaoqian ul a:nth-child(14){
+    background: #FC9D9A;
+}
+.biaoqian ul a:nth-child(15){
+    background: #EDC951;
+}
+.biaoqian ul a:nth-child(16){
+    background: #3299BB;
+}
+.biaoqian ul a:hover{
+    text-shadow:1px 1px 1px #000;
+}
