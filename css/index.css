@@ -303,6 +303,11 @@ ul{
     margin-bottom: 30px;
     position: relative;
 }
+.title:hover:before{
+    width: 80px;
+    -moz-transition:all .2s ease;
+    transition:all .2s ease;
+}
 .title:before{
     content: '';
     width: 60px;
@@ -377,7 +382,12 @@ ul{
     margin-bottom: 30px;
     position: relative;
 }
+.liftfirsttitle:hover:before{
+    width: 80px;
+    -moz-transition:all .2s ease;
+    transition:all .2s ease;
 
+}
 .liftfirsttitle:before{
     content: '';
     width: 60px;
