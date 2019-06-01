@@ -70,11 +70,26 @@ ul{
     margin-right: 14px;
     float: left;
     position: relative;
+
+}
+.firstpiqy .firstpiqyi{
+    overflow: hidden;
+    display: block;
+    width: 616px;
+    height: 260px;
+    position:absolute;
 }
 .firstpiqy .firstpiqyi img{
     width: 616px;
     height: 260px;
+    overflow: hidden;
     position: absolute;
+    left: 616px;
+    top: 0px;
+
+}
+.firstpiqy .firstpiqyi:nth-child(1) img{
+    left: 0px;
 }
 
 .leftbtn,.rightbtn{
@@ -277,15 +292,12 @@ ul{
 }
 .secondleftnote p{
    overflow: hidden;
-    display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     line-height: 1.5;
     display: none;
 }
-.secondleftnote a:hover{
 
-}
 
 .secondright{
     width: 240px;
